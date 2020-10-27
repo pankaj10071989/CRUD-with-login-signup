@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        #ancd{
+            border: 2px solid black;
+            text-decoration: none;
+            padding: 4px;
+            color: black;
+            font-size: 20px;
+        }
+        .anc{
+            border: 2px solid black;
+            text-decoration: none;
+            padding: 5px;
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>::Dashboard::</title>
+</head>
+<body style="background-color: bisque;">
+    <div style="text-align:right;">
+    <a id="ancd" href="/logout/"> Logout </a>
+        </div>
+    <h1 style="text-align: center; ">
+        Welcome,
+    </h1>
+    <h3 style="text-align:center;" > {{em}}</h3>
+    <div style="text-align: center; margin-top: 100px;">
+		<a class="anc" href="/getdata">Display All</a>
+        <a class="anc" href="/getdatabyid">Display by ID</a>
+    </div>
+</body>
+</html>
